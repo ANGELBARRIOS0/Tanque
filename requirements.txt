@@ -13,12 +13,12 @@ colorama==0.4.1
 dateparser==0.7.4
 defusedxml==0.6.0
 diff-match-patch==20181111
+dj-database-url==0.5.0
 Django==3.0.6
-django-crispy-forms==1.9.0
+django-crispy-forms==1.9.1
+django-durationfield==0.5.1
 django-import-export==2.1.0
 et-xmlfile==1.0.1
-# Editable install with no version control (facebook-sdk==3.1.0)
--e c:\users\hp\appdata\local\programs\python\python37-32\lib\site-packages
 Flask==1.0.2
 Flask-BabelEx==0.9.3
 Flask-Login==0.4.1
@@ -64,11 +64,10 @@ pyasn1==0.4.5
 pyasn1-modules==0.2.5
 pycodestyle==2.5.0
 pycryptodome==3.4.3
--e git+https://github.com/daybit-exchange/pydaybit@a931a8b5c57cb329e9055efea59cff136721b5b9#egg=pydaybit
 pylint==2.2.2
 pyparsing==2.4.0
 Pyrebase==3.0.27
-python-dateutil==2.8.0
+python-dateutil==2.4.2
 python-firebase==1.2
 python-jwt==2.0.1
 python-twitter==3.5
@@ -92,6 +91,7 @@ urllib3==1.25.3
 virtualenv==16.6.0
 websockets==8.1
 Werkzeug==0.15.4
+whitenoise==5.1.0
 wrapt==1.11.1
 WTForms==2.2.1
 xlrd==1.2.0
