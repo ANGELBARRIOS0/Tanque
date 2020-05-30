@@ -1,0 +1,22 @@
+{% extends "blog/base.html " %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        MODIFICAR
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                {{ form|crispy }}
+            </fieldset>
+            <div class="card-footer text-muted">
+                <div class="form-group">
+                    <button class="btn btn-outline-warning btn-lg btn-block" type="submit">Edit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock content %}
