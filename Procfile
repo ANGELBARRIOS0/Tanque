@@ -1,1 +1,1 @@
-web: gunicorn Tanque.wsgi
+web: gunicorn fuchibol.wsgi
