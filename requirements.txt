@@ -11,7 +11,7 @@ oauth2client==3.0.0
 oauthlib==3.0.1
 Pillow==7.1.2
 psycopg2==2.8.5
-python-jwt==2.0.1
+python-jwt==3.3.4
 pytz==2019.1
 websockets==8.1
 Werkzeug==0.15.4
